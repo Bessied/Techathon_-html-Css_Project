@@ -1,0 +1,95 @@
+body{
+background: url("/images/pattern-background-mobile.svg");
+background-size:cover;
+background-repeat: no-repeat;
+
+}
+
+#main{
+margin:50px;
+background-color:white;
+border-radius:18px;
+box-shadow: 5px 10px 10px 5px #003;
+}
+
+#image{
+border-radius:15px;
+width:100%;
+}
+#title{
+padding-top: 20px;
+text-align:center;
+font-weight: bold;
+font-size:25px;
+}
+#content{
+padding:0px 20px 20px 20px;
+text-align:center;
+font-size: 15px;
+}
+.details{
+color:black;
+display:block;
+margin:20px;
+padding:15px;
+border-radius:10px;
+background-color:rgba(230,230,230,0.4)
+}
+#span{
+text-align:center;}
+#link{
+float: right;
+position: static;
+align:center;
+}
+#span2{
+position:absolute;
+margin-left:10px;
+}
+#span3{
+position:absolute;
+margin: 20px 0px 0px 15px;
+}
+#span4{
+float:right;
+margin:15px 30px 20px  43%;
+}
+#btn1{
+width: 70px;
+height: 50px;
+border-radius:10px;
+align:center;
+border:0px;
+width:40%;
+padding:10px;
+margin:5% 0% 2% 28%;
+background-color:rgb(10,10,200);
+}
+#btn1 #btn-text{
+color: white;
+}
+#btn1:hover{
+background-color:black
+}
+#btn2{
+width: 70px;
+height: 50px;
+border-radius:10px;
+border:0px;
+width:40%;
+padding:10px;
+margin:0% 0% 5% 28%;
+background-color:rgb(225,255,255);
+}
+#btn2 #btn-text2{
+color: black ;
+font-weight:bold;
+}
+#btn2:hover{
+background-color:red;
+color: white;
+}
+footer{
+margin:0% 15% 0% 15%;
+padding-bottom: 7%;
+}
